@@ -1,0 +1,43 @@
+Opereradores aritméticos:
+
++
+-
+*
+/
+%
+
+Operadores Relacionales:
+
+==
+!=
+>
+<
+=>
+=<
+
+Operadores lógicos:
+
+&&
+||
+!
+
+Asignaciones:
+
+=
++=
+-=
+*=
+/=
+%=
+
+Operador concatenación:
+
++
+
+Punto y coma:
+
+;
+
+Espacios:
+
+" "

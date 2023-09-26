@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -6,7 +7,65 @@ import java.util.regex.Matcher;
 
 public class Main {
     public static void main(String[] args) {
-/*
+        String documento = LeerDocumento.DocumentoTraido("C:\\Users\\Usuario\\IdeaProjects\\ModelosySimulacion\\Compiladores\\input.txt");
+        //la dirección que se pasa como parámetro debe ser modificada y adaptada a cada equipo para dirigir al archivo .TXT con el programa
+        System.out.println("Cadena recibida: \"" + documento + "\"" + "\nCadenas separadas por sus \";\": "); //esta es una salida de prueba para conocer si está funcionando el método de la clase LeerDocumento
+        Programa programa1 = new Programa(documento);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*
         Scanner scanner = new Scanner(System.in);
         System.out.print("Ingrese su  expresión: ");
         String input = scanner.nextLine();
@@ -32,7 +91,7 @@ public class Main {
         }
     }
 
-*/
+
 
         // Caso de prueba 1: x = 1
         Variable x = new Variable("x");
@@ -96,5 +155,5 @@ public class Main {
         Pattern pattern = Pattern.compile("-?\\d+(\\.\\d+)?");
         Matcher matcher = pattern.matcher(subcadena);
         return matcher.matches();
-    }
-}
+
+    */
