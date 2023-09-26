@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-import java.util.Collections;
+
 
 
 public class Programa {
@@ -19,6 +19,11 @@ public class Programa {
             lineasCodigoString.add(subcadena.trim() + ";"); // trim() elimina espacios en blanco al principio y al final
         }
     }
+
+    public void separarNodos(ArrayList<String> lineasCodigoString){
+
+
+    }
     public Programa(String programa) { //se tendrá que implementar una clase estática que
         //acá tendría que implementar un método para separar el String programa en lineas de código individuales y almacenarlas en ArrayList lineasCodigoString
         separarPrograma(programa);
@@ -27,6 +32,8 @@ public class Programa {
         }
         //acá tendría que implementar otro método para convertir cada elementos del ArrayList lineasCodigoString en arboles AST que sean cada uno, un elemento del arrayList lineasCodigoAST
     }
+
+
 
 
 }
